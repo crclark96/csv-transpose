@@ -8,7 +8,7 @@ except:
     print 'usage: ./csvTranspose.py <filename>'
     sys.exit()
 
-print 'invert: ', sys.argv[1]
+print 'transpose: ', sys.argv[1]
 filename = sys.argv[1]
 
 infile = open(filename, 'r')
